@@ -1,0 +1,206 @@
+CRITICAL - 2023-02-09 01:32:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Home.php(125): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 01:38:54 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Home.php(126): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 01:39:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Home.php(126): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 01:40:49 --> mysqli_sql_exception: Unknown column 'promotion' in 'field list' in C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudian...', 0)
+#1 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudian...')
+#2 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudian...')
+#3 C:\xampp\htdocs\gestion_univ\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudian...', Array, false)
+#4 C:\xampp\htdocs\gestion_univ\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_univ\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_univ\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_univ\app\Controllers\Home.php(126): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+#9 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_univ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-09 01:40:49 --> Unknown column 'promotion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudiant` SET `nom` = \'Nembaye\', `postnom` = \'Ngue\', `prenom` = \'georgine\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:40:49\'
+WHERE `etudiant`.`id` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudiant` SET `nom` = \'Nembaye\', `postnom` = \'Ngue\', `prenom` = \'georgine\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:40:49\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudiant` SET `nom` = \'Nembaye\', `postnom` = \'Ngue\', `prenom` = \'georgine\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:40:49\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudiant` SET `nom` = :nom:, `postnom` = :postnom:, `prenom` = :prenom:, `genre` = :genre:, `date_naissance` = :date_naissance:, `lieu_naissance` = :lieu_naissance:, `promotion` = :promotion:, `id_promotion` = :id_promotion:, `date_modification` = :date_modification:
+WHERE `etudiant`.`id` IN :etudiant.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Home.php(126): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 01:43:14 --> mysqli_sql_exception: Unknown column 'promotion' in 'field list' in C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudian...', 0)
+#1 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudian...')
+#2 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudian...')
+#3 C:\xampp\htdocs\gestion_univ\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudian...', Array, false)
+#4 C:\xampp\htdocs\gestion_univ\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_univ\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_univ\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_univ\app\Controllers\Home.php(127): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+#9 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_univ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-09 01:43:14 --> Unknown column 'promotion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudiant` SET `nom` = \'Nembaye\', `postnom` = \'Ngue\', `prenom` = \'georgine\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:43:14\'
+WHERE `etudiant`.`id` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudiant` SET `nom` = \'Nembaye\', `postnom` = \'Ngue\', `prenom` = \'georgine\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:43:14\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudiant` SET `nom` = \'Nembaye\', `postnom` = \'Ngue\', `prenom` = \'georgine\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:43:14\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudiant` SET `nom` = :nom:, `postnom` = :postnom:, `prenom` = :prenom:, `genre` = :genre:, `date_naissance` = :date_naissance:, `lieu_naissance` = :lieu_naissance:, `promotion` = :promotion:, `id_promotion` = :id_promotion:, `date_modification` = :date_modification:
+WHERE `etudiant`.`id` IN :etudiant.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Home.php(127): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 01:43:36 --> Undefined array key "promotion"
+in APPPATH\Views\Home\etudiant.php on line 335.
+ 1 APPPATH\Views\Home\etudiant.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "promotion"', 'APPPATH\\Views\\Home\\etudiant.php', 335)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\etudiant.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('Home/etudiant', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->modifier_etudiant('4')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 01:44:20 --> Undefined array key "intitule"
+in APPPATH\Views\Home\etudiant.php on line 335.
+ 1 APPPATH\Views\Home\etudiant.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "intitule"', 'APPPATH\\Views\\Home\\etudiant.php', 335)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\etudiant.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('Home/etudiant', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->modifier_etudiant('4')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 01:45:38 --> Undefined array key "intitule"
+in APPPATH\Views\Home\etudiant.php on line 335.
+ 1 APPPATH\Views\Home\etudiant.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "intitule"', 'APPPATH\\Views\\Home\\etudiant.php', 335)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\etudiant.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 5 APPPATH\Controllers\Home.php(98): view('Home/etudiant', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->modifier_etudiant('4')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 01:46:13 --> mysqli_sql_exception: Unknown column 'promotion' in 'field list' in C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudian...', 0)
+#1 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudian...')
+#2 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudian...')
+#3 C:\xampp\htdocs\gestion_univ\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudian...', Array, false)
+#4 C:\xampp\htdocs\gestion_univ\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_univ\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_univ\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_univ\app\Controllers\Home.php(127): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+#9 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_univ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-09 01:46:13 --> Unknown column 'promotion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudiant` SET `nom` = \'Ngaro\', `postnom` = \'Ngue\', `prenom` = \'Serge\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:46:13\'
+WHERE `etudiant`.`id` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudiant` SET `nom` = \'Ngaro\', `postnom` = \'Ngue\', `prenom` = \'Serge\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:46:13\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudiant` SET `nom` = \'Ngaro\', `postnom` = \'Ngue\', `prenom` = \'Serge\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:46:13\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudiant` SET `nom` = :nom:, `postnom` = :postnom:, `prenom` = :prenom:, `genre` = :genre:, `date_naissance` = :date_naissance:, `lieu_naissance` = :lieu_naissance:, `promotion` = :promotion:, `id_promotion` = :id_promotion:, `date_modification` = :date_modification:
+WHERE `etudiant`.`id` IN :etudiant.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Home.php(127): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-09 01:47:51 --> mysqli_sql_exception: Unknown column 'promotion' in 'field list' in C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\gestion_univ\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudian...', 0)
+#1 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudian...')
+#2 C:\xampp\htdocs\gestion_univ\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudian...')
+#3 C:\xampp\htdocs\gestion_univ\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudian...', Array, false)
+#4 C:\xampp\htdocs\gestion_univ\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_univ\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_univ\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_univ\app\Controllers\Home.php(127): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+#9 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\gestion_univ\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_univ\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-09 01:47:51 --> Unknown column 'promotion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `etudiant` SET `nom` = \'Ngaro\', `postnom` = \'Ngue\', `prenom` = \'Serge\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:47:51\'
+WHERE `etudiant`.`id` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `etudiant` SET `nom` = \'Ngaro\', `postnom` = \'Ngue\', `prenom` = \'Serge\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:47:51\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `etudiant` SET `nom` = \'Ngaro\', `postnom` = \'Ngue\', `prenom` = \'Serge\', `genre` = \'F\', `date_naissance` = \'0000-00-00\', `lieu_naissance` = \'koudoule\', `promotion` = NULL, `id_promotion` = NULL, `date_modification` = \'2023-02-09 01:47:51\'
+WHERE `etudiant`.`id` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `etudiant` SET `nom` = :nom:, `postnom` = :postnom:, `prenom` = :prenom:, `genre` = :genre:, `date_naissance` = :date_naissance:, `lieu_naissance` = :lieu_naissance:, `promotion` = :promotion:, `id_promotion` = :id_promotion:, `date_modification` = :date_modification:
+WHERE `etudiant`.`id` IN :etudiant.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Home.php(127): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->enregistrer_modification_etudiant('4')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-09 01:58:25 --> Undefined variable $la_promotion
+in APPPATH\Views\Home\etudiant.php on line 336.
+ 1 APPPATH\Views\Home\etudiant.php(336): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $la_promotion', 'APPPATH\\Views\\Home\\etudiant.php', 336)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Home\\etudiant.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('Home/etudiant', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->etudiant()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

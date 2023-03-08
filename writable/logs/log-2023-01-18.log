@@ -1,0 +1,18 @@
+CRITICAL - 2023-01-18 01:36:30 --> Invalid file: accueil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('accueil.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('accueil', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('accueil')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 01:39:28 --> Invalid file: accueil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('accueil.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('accueil', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('accueil')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,72 @@
+CRITICAL - 2023-01-15 00:52:16 --> Invalid file: Home/etudiant.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/etudiant.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('Home/etudiant')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->etudiant()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 00:53:04 --> Invalid file: Home/etudiant.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/etudiant.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('Home/etudiant')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->etudiant()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 00:53:12 --> Invalid file: Home/etudiant.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/etudiant.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('Home/etudiant')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->etudiant()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 00:53:23 --> Invalid file: Home/promotion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/promotion.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/promotion', [], true)
+ 3 APPPATH\Controllers\Home.php(54): view('Home/promotion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->promotion()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 00:53:37 --> Invalid file: Home/promotion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/promotion.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/promotion', [], true)
+ 3 APPPATH\Controllers\Home.php(54): view('Home/promotion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->promotion()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 00:55:27 --> Invalid file: Home/promotion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/promotion.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/promotion', [], true)
+ 3 APPPATH\Controllers\Home.php(54): view('Home/promotion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->promotion()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 00:55:31 --> Invalid file: Home/promotion.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/promotion.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/promotion', [], true)
+ 3 APPPATH\Controllers\Home.php(54): view('Home/promotion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->promotion()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 01:24:29 --> Invalid file: Home/etudiant.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/etudiant.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/etudiant', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('Home/etudiant')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->etudiant()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

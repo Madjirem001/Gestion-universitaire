@@ -1,0 +1,33 @@
+CRITICAL - 2023-02-01 04:11:49 --> Invalid file: Home/conseil_orientation.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/conseil_orientation.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/conseil_orientation', [], true)
+ 3 APPPATH\Controllers\Home.php(129): view('Home/conseil_orientation')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->conseil_orientation()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:04:46 --> Invalid file: Home/profile.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/profile.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('Home/profile', [], true)
+ 3 APPPATH\Controllers\Home.php(135): view('Home/profile')
+ 4 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 15:44:01 --> syntax error, unexpected identifier "session_start", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Home/promotion')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Home/promotion')
+ 3 SYSTEMPATH\CodeIgniter.php(782): CodeIgniter\Router\Router->handle('Home/promotion')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-01 16:01:45 --> Undefined variable $id
+in APPPATH\Controllers\Home.php on line 69.
+ 1 APPPATH\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Home.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\Home->ajout_promotion()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
